@@ -1,0 +1,169 @@
+//
+// Sizes
+.size-0-75 {
+  line-height: 0.75rem; font-size: font-size(0-75);
+}
+.size-1 {
+  line-height: 1rem; font-size: font-size(1);
+}
+.size-1-25 {
+  line-height: 1.25rem; font-size: font-size(1-25);
+}
+.size-1-5 {
+  line-height: 1.5rem; font-size: font-size(1-5);
+}
+.size-1-75 {
+  line-height: 1.75rem; font-size: font-size(1-75);
+}
+.size-2 {
+  line-height: 2rem; font-size: font-size(2);
+}
+
+//
+// Line-height overwrites
+.line-0-75 {
+  line-height: 0.75rem;
+}
+.line-1 {
+  line-height: 1rem;
+}
+.line-1-25 {
+  line-height: 1.25rem;
+}
+.line-1-5 {
+  line-height: 1.5rem;
+}
+.line-1-75 {
+  line-height: 1.75rem;
+}
+.line-2 {
+  line-height: 2rem;
+}
+
+//
+// Families
+.serif {
+  font-family: $serif;
+}
+.sans {
+  font-family: $sans;
+}
+//
+// Weights
+.weight-400 { font-weight: 400; }
+.weight-700, .bold, strong, b { font-weight: 700; }
+
+//
+// Alignment
+.text-align-left   { text-align: left;   }
+.text-align-center { text-align: center; }
+.text-align-right  { text-align: right;  }
+.vertical-align-middle { vertical-align: middle; }
+.vertical-align-top { vertical-align: top; }
+.vertical-align-bottom { vertical-align: bottom; }
+.vertical-align-baseline { vertical-align: baseline; }
+
+
+//
+// Styles
+.uppercase   { text-transform: uppercase;  }
+.italic     { font-style: italic; }
+.underlined { border-bottom: 1px solid; }
+
+//
+// Adjustment
+.nowrap { white-space: nowrap; }
+.overflow-hidden { overflow: hidden; }
+.overflow-ellipsis { text-overflow: ellipsis; }
+
+
+//
+// Links
+.links a,
+.link {
+  color: color(primary);
+  background: linear-gradient(rgba(color(primary), 0.382), rgba(color(primary), 0.382)) left bottom 0.05em repeat-x;
+  background-size: 1px 1px;
+  transition: 91ms ease-out;
+  transition-property: color, background, box-shadow;
+}
+.link.link--red {
+  color: color(red);
+  background: linear-gradient(rgba(color(red), 0.382), rgba(color(red), 0.382)) left bottom 0.05em repeat-x;
+  background-size: 1px 1px;
+  transition: 91ms ease-out;
+  transition-property: color, background, box-shadow;
+}
+.link.link--white {
+  color: color(white);
+  background: linear-gradient(rgba(color(white), 0.382), rgba(color(white), 0.382)) left bottom 0.05em repeat-x;
+  background-size: 1px 1px;
+  transition: 91ms ease-out;
+  transition-property: color, background, box-shadow;
+}
+
+.links a:hover, .link:hover,
+.links a:focus, .link:focus
+.links a:active, .link:active {
+  background: color(primary);
+  display: inline-block;
+  background-size: auto;
+  border-radius: 0.125rem;
+  color: #FFFFFF;
+  box-shadow:
+    -0.125rem -0.075rem 0 color(primary),
+     0.125rem  0.075rem 0 color(primary),
+     0.125rem -0.075rem 0 color(primary),
+    -0.125rem  0.075rem 0 color(primary)
+  ;
+}
+.link.link--red:hover,
+.link.link--red:focus
+.link.link--red:active {
+  background: color(red);
+  box-shadow:
+    -0.125rem -0.075rem 0 color(red),
+     0.125rem  0.075rem 0 color(red),
+     0.125rem -0.075rem 0 color(red),
+    -0.125rem  0.075rem 0 color(red)
+  ;
+}
+.link.link--white:hover,
+.link.link--white:focus
+.link.link--white:active {
+  color: color(primary);
+  background: color(white);
+  box-shadow:
+    -0.125rem -0.075rem 0 color(white),
+     0.125rem  0.075rem 0 color(white),
+     0.125rem -0.075rem 0 color(white),
+    -0.125rem  0.075rem 0 color(white)
+  ;
+}
+.links a:active, .link:active {
+  background: shade(color(primary), 30%);
+  box-shadow:
+    -0.125rem -0.075rem 0 shade(color(primary), 30%),
+     0.125rem  0.075rem 0 shade(color(primary), 30%),
+     0.125rem -0.075rem 0 shade(color(primary), 30%),
+    -0.125rem  0.075rem 0 shade(color(primary), 30%)
+  ;
+}
+.link.link--red:active {
+  background: shade(color(red), 30%);
+  box-shadow:
+    -0.125rem -0.075rem 0 shade(color(red), 30%),
+     0.125rem  0.075rem 0 shade(color(red), 30%),
+     0.125rem -0.075rem 0 shade(color(red), 30%),
+    -0.125rem  0.075rem 0 shade(color(red), 30%)
+  ;
+}
+.link.link--white:active {
+  background: shade(color(white), 30%);
+  box-shadow:
+    -0.125rem -0.075rem 0 shade(color(white), 30%),
+     0.125rem  0.075rem 0 shade(color(white), 30%),
+     0.125rem -0.075rem 0 shade(color(white), 30%),
+    -0.125rem  0.075rem 0 shade(color(white), 30%)
+  ;
+}

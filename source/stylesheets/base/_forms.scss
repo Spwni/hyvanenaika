@@ -1,0 +1,48 @@
+#{$all-text-inputs} {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.25rem;
+
+  font-family: $sans;
+
+  border: 1px solid color(gray, lighten-3);
+  border-radius: 0;
+
+  background-color: color(white);
+
+  @include appearance(none);
+  @include placeholder {
+    color: color(gray, lighten-3);
+  }
+  &:focus {
+    border-color: color(primary, lighten-2);
+    outline: none;
+  }
+  &:disabled {
+    border-color: color(gray, lighten-3);
+
+    color: color(gray);
+
+    background-color: color(gray, lighten-4);
+
+    cursor: not-allowed;
+  }
+}
+#{$all-buttons} {
+  @include appearance(none);
+}
+label {
+  font-family: $sans;
+}
+select {
+  width: 100%;
+  padding: 0.25rem;
+
+  font-family: $sans;
+
+  @include appearance(none);
+}
+input[type="file"] {
+  font-family: $sans;
+}

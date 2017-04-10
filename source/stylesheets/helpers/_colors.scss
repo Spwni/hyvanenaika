@@ -1,0 +1,127 @@
+//
+// Variables
+$color-1: #fafafa;
+$color-green: green;
+$color-yellow: yellow;
+$color-red: red;
+$color-white: #FFF;
+$color-black: #000;
+
+$color-gray-lightest: #FAFAFA;
+$color-gray-light: #E0E0E0;
+$color-gray: #9E9E9E;
+$color-gray-medium: #757575;
+$color-gray-dark: #616161;
+$color-gray-darkest: #212121;
+
+//
+// Classes
+.color-1   { color:            $color-1; }
+.bg-1      { background-color: $color-1; }
+.border-color-1  { border-color:     $color-1; }
+.fill-1    { fill:             $color-1; }
+.stroke-1  { stroke:           $color-1; }
+.outline-1 { outline-color:    $color-1; }
+
+.color-green   { color:            $color-green; }
+.bg-green      { background-color: $color-green; }
+.border-color-green  { border-color:     $color-green; }
+.fill-green    { fill:             $color-green; }
+.stroke-green  { stroke:           $color-green; }
+.outline-green { outline-color:    $color-green; }
+
+.color-yellow   { color:            $color-yellow; }
+.bg-yellow      { background-color: $color-yellow; }
+.border-color-yellow  { border-color:     $color-yellow; }
+.fill-yellow    { fill:             $color-yellow; }
+.stroke-yellow  { stroke:           $color-yellow; }
+.outline-yellow { outline-color:    $color-yellow; }
+
+.color-red   { color:            $color-red; }
+.bg-red      { background-color: $color-red; }
+.border-color-red  { border-color:     $color-red; }
+.fill-red    { fill:             $color-red; }
+.stroke-red  { stroke:           $color-red; }
+.outline-red { outline-color:    $color-red; }
+
+.color-white   { color:            $color-white; }
+.bg-white      { background-color: $color-white; }
+.border-color-white  { border-color:     $color-white; }
+.fill-white    { fill:             $color-white; }
+.stroke-white  { stroke:           $color-white; }
+.outline-white { outline-color:    $color-white; }
+
+.color-black   { color:            $color-black; }
+.bg-black      { background-color: $color-black; }
+.border-color-black  { border-color:     $color-black; }
+.fill-black    { fill:             $color-black; }
+.stroke-black  { stroke:           $color-black; }
+.outline-black { outline-color:    $color-black; }
+
+.color-gray-lightest   { color:            $color-gray-lightest; }
+.bg-gray-lightest      { background-color: $color-gray-lightest; }
+.border-color-gray-lightest  { border-color:     $color-gray-lightest; }
+.fill-gray-lightest    { fill:             $color-gray-lightest; }
+.stroke-gray-lightest  { stroke:           $color-gray-lightest; }
+.outline-gray-lightest { outline-color:    $color-gray-lightest; }
+
+.color-gray-light   { color:            $color-gray-light; }
+.bg-gray-light      { background-color: $color-gray-light; }
+.border-color-gray-light  { border-color:     $color-gray-light; }
+.fill-gray-light    { fill:             $color-gray-light; }
+.stroke-gray-light  { stroke:           $color-gray-light; }
+.outline-gray-light { outline-color:    $color-gray-light; }
+
+.color-gray   { color:            $color-gray; }
+.bg-gray      { background-color: $color-gray; }
+.border-color-gray  { border-color:     $color-gray; }
+.fill-gray    { fill:             $color-gray; }
+.stroke-gray  { stroke:           $color-gray; }
+.outline-gray { outline-color:    $color-gray; }
+
+.color-gray-medium   { color:            $color-gray-medium; }
+.bg-gray-medium      { background-color: $color-gray-medium; }
+.border-color-gray-medium  { border-color:     $color-gray-medium; }
+.fill-gray-medium    { fill:             $color-gray-medium; }
+.stroke-gray-medium  { stroke:           $color-gray-medium; }
+.outline-gray-medium { outline-color:    $color-gray-medium; }
+
+.color-gray-dark   { color:            $color-gray-dark; }
+.bg-gray-dark      { background-color: $color-gray-dark; }
+.border-color-gray-dark  { border-color:     $color-gray-dark; }
+.fill-gray-dark    { fill:             $color-gray-dark; }
+.stroke-gray-dark  { stroke:           $color-gray-dark; }
+.outline-gray-dark { outline-color:    $color-gray-dark; }
+
+.color-gray-darkest   { color:            $color-gray-darkest; }
+.bg-gray-darkest      { background-color: $color-gray-darkest; }
+.border-color-gray-darkest  { border-color:     $color-gray-darkest; }
+.fill-gray-darkest    { fill:             $color-gray-darkest; }
+.stroke-gray-darkest  { stroke:           $color-gray-darkest; }
+.outline-gray-darkest { outline-color:    $color-gray-darkest; }
+
+//
+// Other
+
+.color-none   { color:            none; }
+.bg-none      { background-color: none; }
+.border-color-none  { border-color:     none; }
+.fill-none    { fill:             none; }
+.stroke-none  { stroke:           none; }
+.outline-none { outline:          none; }
+
+.color-transparent   { color:            transparent; }
+.bg-transparent      { background-color: transparent; }
+.border-color-transparent  { border-color:     transparent; }
+.outline-transparent { outline-color:    transparent; }
+
+.color-inherit   { color:            inherit; }
+.bg-inherit      { background-color: inherit; }
+.border-color-inherit  { border-color:     inherit; }
+.outline-inherit { outline-color:    inherit; }
+
+.bg-currentcolor      { background-color: currentcolor; }
+.border-color-currentcolor  { border-color:     currentcolor; }
+.fill-currentcolor    { fill:             currentcolor; }
+.stroke-currentcolor  { stroke:           currentcolor; }
+.outline-currentcolor { outline-color:    currentcolor; }
