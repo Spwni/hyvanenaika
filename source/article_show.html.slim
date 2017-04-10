@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    meta[charset="utf-8"]
+    meta[http-equiv="X-UA-Compatible" content="IE=edge;chrome=1"]
+    meta[name="viewport" content="width=device-width, initial-scale=1"]
+    link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Noto+Serif:400,400i,700,700i" rel="stylesheet"
+    = stylesheet_link_tag "application"
+
+    title
+      | Hyvänen aika
+      = ' - ' + current_article.title unless current_article.nil?
+    = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
+
+  body
+    .padding-1.padding-y.bg-gray-lighten-4.text-align-center
+      h1.text-align-center.bold.sans.size-1-75 Hyvänen aika
+      h2.sans.color-gray Menetyttäjä hetkiä digitaalisessa maailmassa
+    section.padding-2.padding-y
+      .container
+        .row
+          .col-xs-12
+            h1.size-1-75.bold.margin-1.margin-bottom.show.sans
+              div.margin-0-125.margin-bottom= current_article.title
+              div.size-0-75.color-gray.weight-400.sans= current_article.date.strftime('%d.%m.%Y')
+            .article
+
+              = yield
