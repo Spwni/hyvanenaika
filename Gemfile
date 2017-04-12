@@ -13,6 +13,8 @@ gem "middleman", "~> 4.1"
 gem "middleman-blog"
 gem "middleman-livereload"
 
+gem 'middleman-gh-pages'
+
 gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 
 # For feed.xml.builder
